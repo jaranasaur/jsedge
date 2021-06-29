@@ -1,27 +1,31 @@
 const config = {
   logging: false,
   keyBinds: [ 
-  // {
-  //   action: "cursorMove",
-  //   domEvent: "mousemove",
-  //   test: () => true
-  // }, {
-  //   action: "cursorDown",
-  //   domEvent: "mousedown",
-  //   test: e => e.button == 0 ? true : false
-  // }, {
-  //   action: "cursorUp",
-  //   domEvent: "mouseup",
-  //   test: e => e.button == 0 ? true : false
-  // }, {
-  //   action: "cursorDown",
-  //   domEvent: "keydown",
-  //   test: e => e.code == "Space" ? true : false
-  // }, {
-  //   action: "cursorUp",
-  //   domEvent: "keyup",
-  //   test: e => e.code == "Space" ? true : false
-  // }, 
+  {
+    action: "cursorMove",
+    domEvent: "mousemove",
+    test: () => true
+  },
+  {
+    action: "cursorDown",
+    domEvent: "mousedown",
+    test: e => e.button == 0 ? true : false
+  },
+  {
+    action: "cursorUp",
+    domEvent: "mouseup",
+    test: e => e.button == 0 ? true : false
+  },
+  {
+    action: "cursorDown",
+    domEvent: "keydown",
+    test: e => e.code == "Space" ? true : false
+  },
+  {
+    action: "cursorUp",
+    domEvent: "keyup",
+    test: e => e.code == "Space" ? true : false
+  }, 
   {
     action: "leftArrowDown",
     domEvent: "keydown",
